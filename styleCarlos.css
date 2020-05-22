@@ -7,8 +7,8 @@
 
 .topArea{
   display: flex;
-  height: 200px;
   width: 100%;
+  background-image: url('./assets/Fondo\ homepage_Mesa\ de\ trabajo\ 1.jpg');
 }
 
 .middleAreaLogin{
@@ -31,8 +31,10 @@
 
 .bottomArea{
   display: flex;
-  height: 500px;
+  height: 1200px;
   width: 100%;
+  background-image: url('./assets/Fondo\ homepage_Mesa\ de\ trabajo\ 1.jpg');
+  background-size: cover;
 }
 
 .login{
@@ -43,7 +45,7 @@
   align-items: center;
 }
 
-fondoRojo{
+.fondoRojo{
   background-image: url('./assets/Fondo\ homepage_Mesa\ de\ trabajo\ 1.jpg');
   padding-top: 40%;
   padding-bottom: 10%;
@@ -52,60 +54,75 @@ fondoRojo{
   background-size: cover;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+}
+.logo2 {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.logo3 {
+  width: 25%;
+}
+
+.hamburger{
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+body {
+  background-color: #e52c2b;
+}
 
 /* ---------------------The side navigation menu -----------------------*/
+/* The side navigation menu */
 .sidenav {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    left: 0;
-    background-color: #E52C2B; /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-  }
-  
-  /* The navigation menu links */
-  .sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: black;
-    display: block;
-    transition: 0.3s;
-  }
-  
-  /* When you mouse over the navigation links, change their color */
-  .sidenav a:hover {
-    color: #f1f1f1;
-  }
-  
-  /* Position and style the close button (top right corner) */
-  .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-  }
-  
-  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-  #main {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    transition: margin-left .5s;
-    padding-top: 10%;
-  }
-  
-  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color:#e52c2b; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  color:white;
+  display: block;
+  transition: 0.3s;
+  font-family: 'Lato', sans-serif;
+}
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: white;
+}
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 0px;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
 
 
 
