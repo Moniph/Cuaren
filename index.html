@@ -9,7 +9,8 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
     <!-- Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
@@ -31,122 +32,199 @@
     </div>
 
     <!-- Use any element to open the sidenav -->
-    <span onclick="openNav()"> <span class="material-icons hm hamburger" style="color: white;">
-            menu 
-        </span>  </span> 
+    <div class="d-flex justify-content-between align-items-center">
+        <span onclick="openNav()"> <span class="material-icons hm hamburger" style="color: white;">
+                menu
+            </span> </span>
+        <img class="logo mr-3" src="./assets/cuaren_Logo.png" alt="logo">
+    </div>
 
-        <img class="logo" src="./assets/cuaren_Logo.png" alt="logo">
+    <h2>Cocina</h2>
+    <h3>Aprende a preparar los mejores platillos</h3>
 
-   
     <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
     <div id="main">
-        
 
-        <!-- Bienvenidos -->
-        <main>
-            <div class="fondoRojo">
-                <div class="bienvenidos">
-                    <h1>Bienvenido a cuaren</h1>
-                    <p class="inicio col-10">Descubre nuevas actividades para quitarte el aburrimiento</p>
+        <section class="actividades">
+            <!-- Actividades -->
+            <section class="container py-5">
+                <div class="row">
+
+                    <div class="col-md-4 px-md-4 py-3">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front card-pie">
+                                    <h3>Pie</h3>
+                                </div>
+                                <div class="flip-card-back px-3 py-5">
+                                    <h1>Pie</h1>
+                                    <p>Tiempo requerido de preparacion</p>
+                                    <p>We love that guy</p>
+                                    <button type="button" class="btn btn-primary border-0 bg-white text-danger my-3"
+                                        data-toggle="modal" data-target="#exampleModalCenter">
+                                        Launch demo modal
+                                    </button>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 px-md-4 py-3">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front card-cheesecake">
+                                    <h3>Cheesecake</h3>
+                                </div>
+                                <div class="flip-card-back px-3 py-5">
+                                    <h1>Cheesecake</h1>
+                                    <p>Tiempo requerido de preparacion</p>
+                                    <p>We love that guy</p>
+                                    <button type="button" class="btn btn-primary border-0 bg-white text-danger my-3"
+                                        data-toggle="modal" data-target="#exampleModalCenter">
+                                        Launch demo modal
+                                    </button>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 px-md-4 py-3">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front card-tresLeches">
+                                    <h3>Tres Leches</h3>
+                                </div>
+                                <div class="flip-card-back px-3 py-5">
+                                    <h1>Tres Leches</h1>
+                                    <p>Tiempo requerido de preparacion</p>
+                                    <p>We love that guy</p>
+                                    <button type="button" class="btn btn-primary border-0 bg-white text-danger my-3"
+                                        data-toggle="modal" data-target="#exampleModalCenter">
+                                        Launch demo modal
+                                    </button>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 px-md-4 py-3">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front card-chocolateCake">
+                                    <h3>Pie</h3>
+                                </div>
+                                <div class="flip-card-back px-3 py-5">
+                                    <h1>Nombre del platillo</h1>
+                                    <p>Tiempo requerido de preparacion</p>
+                                    <p>We love that guy</p>
+                                    <button type="button" class="btn btn-primary border-0 bg-white text-danger my-3"
+                                        data-toggle="modal" data-target="#exampleModalCenter">
+                                        Launch demo modal
+                                    </button>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 px-md-4 py-3">
+                        <div class="flip-card card-strawberryCake">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <h3>Pie</h3>
+                                </div>
+                                <div class="flip-card-back px-3 py-5">
+                                    <h1>Nombre del platillo</h1>
+                                    <p>Tiempo requerido de preparacion</p>
+                                    <p>We love that guy</p>
+                                    <button type="button" class="btn btn-primary border-0 bg-white text-danger my-3"
+                                        data-toggle="modal" data-target="#exampleModalCenter">
+                                        Launch demo modal
+                                    </button>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 px-md-4 py-3">
+                        <div class="flip-card card-iceCream">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <h3>Pie</h3>
+                                </div>
+                                <div class="flip-card-back px-3 py-5">
+                                    <h1>Nombre del platillo</h1>
+                                    <p>Tiempo requerido de preparacion</p>
+                                    <p>We love that guy</p>
+                                    <button type="button" class="btn btn-primary border-0 bg-white text-danger my-3"
+                                        data-toggle="modal" data-target="#exampleModalCenter">
+                                        Launch demo modal
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        
-        </main>
-
-<section class="actividades">
-        <!-- Actividades -->
-        <section class="container">
-            <article class="row">
-
-                    <!-- Cocina -->
-                    <div class="circulo1 col-sm-4 col-6">
-                        <a class="palabra" href="./cocina.html"> <img class="circulo link" src="./assets/A _Cocina.png"
-                                alt="Cocina">
-                                <p> Cocina </p>
-                        </a>
-                    </div>
-
-                    <!-- Cultural -->
-                    <div class="circulo1 col-sm-4 col-6">
-                        <a class="palabra" href="./cultural.html"> <img class="circulo link" src="./assets/A _Cultural.png"
-                                alt="Cultural">
-                            <p>Cultural</p>
-                        </a>
-                    </div>
-
-                    <!-- Destreza -->
-                    <div class="circulo1 col-sm-4 col-6">
-                        <a class="palabra" href="./destreza.html"><img class="circulo link" src="./assets/A _Destreza.png"
-                                alt="Destreza">
-                            <p>Destreza</p>
-                        </a>
-                    </div>
-
-                    <!-- Ejercicio -->
-                    <div class="circulo1 col-sm-4 col-6">
-                        <a class="palabra" href="./ejercicio.html"><img class="circulo link" src="./assets/A _Ejercicio.png"
-                                alt="Ejercicio">
-                            <p>Ejercicio</p>
-                        </a>
-                    </div>
-
-                    <!-- Entretenimiento -->
-                    <div class="circulo1 col-sm-4 col-6">
-                        <a class="palabra" href="./entretenimiento.html"><img class="circulo link"
-                                src="./assets/A _Entretenimiento.png" alt="Entretenimiento">
-                            <p>Entretenimiento</p>
-                        </a>
-                    </div>
-
-                    <!-- Manualidades -->
-                    <div class="circulo1 col-sm-4 col-6">
-                        <a class="palabra" href="./manualidades.html"> <img class="circulo link" src="./assets/A _Manualidades.png"
-                                alt="Manualidades">
-                            <p>Manualidades</p>
-                        </a>
-                    </div>
-                </article>
             </section>
-</section>
+        </section>
 
 
+        <!--Modal-->
 
-        <!-- Contáctanos -->
-        <main>
-            <div class="fondoRojo1 ">
-                <div class="f1">
-                    <form class="col-sm-12">
-                        <div class="form-group formulario ">
-                            <label for="formGroupExampleInput"></label>
-                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre">
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <a href="#" class="btn btn-default" data-toggle="modal" data-target="#videoModal"
+                            data-theVideo="http://www.youtube.com/embed/loFtozxZG0s">VIDEO</a>
+                        <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModal"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <button type="button" class="close" data-dismiss="modal"
+                                            aria-hidden="true">&times;</button>
+                                        <div>
+                                            <iframe width="100%" height="350" src=""></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="form-group formulario">
-                            <label for="formGroupExampleInput"></label>
-                            <input type="text" class="form-control" id="formGroupExampleInput"
-                                placeholder="Correo electrónico">
-                        </div>
-                        <div class="formulario">
-                            <textarea class="form-control" placeholder="Escribe tu mensaje"
-                                aria-label="With textarea"></textarea>
-                        </div>
-
-                    </form>
+                    </div>
                 </div>
-
             </div>
+        </div>
 
 
 
-        </main>
+
 
     </div>
 
 
     <script src="./main.js"></script>
     <!-- Bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
 
 </body>
 

@@ -8,7 +8,7 @@
 }
 
 .logo {
-    width: 25%;
+    width: 120px;
     display: flex;
     justify-content: right;
 
@@ -25,13 +25,22 @@ body {
     background-color: #e52c2b
   }
 
-h1{
+h1, h2 {
     margin-left: 20px;
     color: white;
     font-family: 'Lato', sans-serif;
     font-style: italic;
     font-weight: bolder;
     font-size: 26px;
+}
+
+h3 {
+  margin-left: 20px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 20px;
 }
 
 .inicio{
@@ -148,7 +157,105 @@ h1{
   .sidenav a {font-size: 18px;}
 }
 
+
+@media screen and (min-width: 1024px) {
+  .logo {width: 250px;
+}
+}
+
+
+
 .float-right {
     float: right !important; }
 
-      
+
+/*Modal*/
+
+  /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+  .flip-card {
+    cursor: pointer;
+    background-color: transparent;
+    width: 100%;
+    height: 200px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    margin-bottom: 30px;
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-position: center;
+    background-size: cover;
+    color: black;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .flip-card-front,
+  .flip-card-front h3 {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+
+  .flip-card-front h3 {
+    background-color: rgba(255,141, 3, .95);
+    width: 100%;
+    margin: 0;
+    padding: 8.5% 20px;
+    text-align: left;
+    color: white;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: rgba(255,141, 3, 1);;
+    color: white;
+    transform: rotateY(180deg);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+
+  .card-pie {
+    background-image: url("https://cdn.kiwilimon.com/recetaimagen/35454/42533.jpg");
+  }
+
+  .card-cheesecake {
+    background-image: url("https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_4:3/k%2Farchive%2F7b084eaf9d7d564dd2667094c3dd1260a5e4d646");
+  }
+
+  .card-chocolateCake {
+    background-image: url("https://beyondfrosting.com/wp-content/uploads/2019/01/Chocolate-Cake-Recipe-017-260x195.jpg");
+  }
+
+  .card-tresLeches {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQLUU4mitC_y6yKnsz7Z8BJzxUbuzoylVnMPeFjqaoCT2sAg-vj&usqp=CAU");
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .flip-card {
+      height: 300px;
+    }
+    }
