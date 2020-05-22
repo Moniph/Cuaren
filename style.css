@@ -7,18 +7,28 @@
     background-size: cover;
 }
 
-.logo {
-    width: 25%;
+.fondoRojo2{
+    background-image: url('./assets/Fondo\ homepage_Mesa\ de\ trabajo\ 1.jpg');
+    padding-top: 15%;
+    padding-bottom: 10%;
     display: flex;
-    justify-content: right;
-
+    width: 100%;
+    background-size: cover;
 }
 
-.fondoRojo1{
-    background: url('./assets/Fondo\ homepage_Mesa\ de\ trabajo\ 1.jpg');
+.logo {
     display: flex;
-    padding:20%;
-    background-size: cover;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.logo2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo3 {
+    width: 25%;
 }
 
 body {
@@ -43,8 +53,8 @@ h1{
 }
 .actividades{
     background-color: white;
-    padding: 20px;
-
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .hamburger{
@@ -52,49 +62,63 @@ h1{
     margin-top: 10px;
 }
 
-
 .link{
-    border: rgb(102, 71, 255) 1px solid;
-    text-decoration: none;
-    color: black;
-    font-family: 'Lato', sans-serif;
-    font-size: 120%;
-    text-align: center;
-
+/*     border: rgb(102, 71, 255) 1px solid; */
 }
+
+
 .palabra{
     text-decoration: none !important;
-    color:  black;
-
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
 }
 
 .circulo {
     border: orange 1px solid;
-    inline-size: 50%;
+    size: 50%;
 }
 
 /* .circulo1{
     border: rgb(0, 255, 149) 1px solid;
     display: flex;
     justify-content: center;
-    flex-direction: row;
 } */
 
 .f1 {
-    border: rgb(0, 255, 149) 1px solid;
+/*     border: rgb(0, 255, 149) 1px solid; */
     width: 100%;
     display:flex;
-    justify-content: center;
-    flex-direction: row;
+    justify-content: space-around;
+    flex-direction: column;
+}
 
+.f2 {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    font-style: italic;
+    margin: 10px
 }
 
 .formulario{
-    margin-bottom : 10px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
 }
 
+.btnenviar{
+margin: 15px;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-weight: 400;
+    background-clip: padding-box;
+    border: 1px solid #ffffff;
+}
 
 /* The side navigation menu */
 .sidenav {
@@ -147,8 +171,3 @@ h1{
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-
-.float-right {
-    float: right !important; }
-
-      
