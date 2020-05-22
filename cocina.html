@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link iconos -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+    <!-- Mis Estilos -->
+    <link rel="stylesheet" href="./cocina.css">
+
+    <title>Cuaren</title>
+</head>
+
+<body>
+
+    <div id="mySidenav" class="sidenav hamburgerText">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Inicio</a>
+        <a href="#">Actividades</a>
+        <a href="#">Contáctanos</a>
+        <a href="#">Login</a>
+    </div>
+
+    <!-- Use any element to open the sidenav -->
+    <div class="d-flex justify-content-between align-items-center">
+        <span onclick="openNav()"> <span class="material-icons hm hamburger" style="color: white;">
+                menu
+            </span> </span>
+        <img class="logo mr-3" src="./assets/cuaren_Logo.png" alt="logo">
+    </div>
+
+    <h2>Cocina</h2>
+    <h3>Aprende a preparar los mejores platillos</h3>
+
+    <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+    <div id="main">
+
+        <section class="actividades">
+            <!-- Actividades -->
+            <section class="container py-5">
+                <div class="row">
+                    <div class="col-md-4 px-md-4 py-3">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front card-pie">
+                                    <h3>Pie</h3>
+                                </div>
+                                <div class="flip-card-back px-3 py-5">
+                                    <h1>Pie de Limon</h1>
+                                    <p>
+                                        Esta receta es tradicional de las cocinas de Francia, Estados Unidos y Reino
+                                        Unido, si bien se conoce en muchos otros lugares, y se consume como postre o
+                                        como parte de la merienda.
+                                    </p>
+                                    <button type="button" class="btn btn-primary border-0 bg-white text-danger my-3"
+                                        data-toggle="modal" data-target="#pieLimon">
+                                        Ver Video
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 px-md-4 py-3">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front card-cheesecake">
+                                    <h3>Cheesecake</h3>
+                                </div>
+                                <div class="flip-card-back px-3 py-5">
+                                    <h1>Cheesecake</h1>
+                                    <p>Un pastel de queso o tarta de queso (ver otros nombres) es un postre hecho a base
+                                        de Ricotta, requesón o queso cheddar, queso quark, azúcar)</p>
+                                    <button type="button" class="btn btn-primary border-0 bg-white text-danger my-3"
+                                        data-toggle="modal" data-target="#cheeseckae">
+                                        Ver video
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 px-md-4 py-3">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front card-tresLeches">
+                                    <h3>Tres Leches</h3>
+                                </div>
+                                <div class="flip-card-back px-3 py-5">
+                                    <h1>Tres Leches</h1>
+                                    <p>Consiste en un bizcocho bañado con tres tipos de leche: leche evaporada, crema de
+                                        leche y leche condensada, que le dan su nombre</p>
+                                    <button type="button" class="btn btn-primary border-0 bg-white text-danger my-3"
+                                        data-toggle="modal" data-target="#tresLeches">
+                                        Ver Video
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 px-md-4 py-3">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front card-chocolateCake">
+                                    <h3>Queque de Chocolate</h3>
+                                </div>
+                                <div class="flip-card-back px-3 py-5">
+                                    <h1>Queque de Chocolate</h1>
+                                    <p>Tiempo requerido de preparacion</p>
+                                    <button type="button" class="btn btn-primary border-0 bg-white text-danger my-3"
+                                        data-toggle="modal" data-target="#exampleModalCenter">
+                                        Launch demo modal
+                                    </button>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 px-md-4 py-3">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front card-strawberryCake">
+                                    <h3>Queque de Fresas</h3>
+                                </div>
+                                <div class="flip-card-back px-3 py-5">
+                                    <h1>>Queque de Fresas</h1>
+                                    <p>Tiempo requerido de preparacion</p>
+                                    <button type="button" class="btn btn-primary border-0 bg-white text-danger my-3"
+                                        data-toggle="modal" data-target="#exampleModalCenter">
+                                        Launch demo modal
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 px-md-4 py-3">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front card-crepas">
+                                    <h3>Crepas</h3>
+                                </div>
+                                <div class="flip-card-back px-3 py-5">
+                                    <h1>Crepas</h1>
+                                    <p>Tiempo requerido de preparacion</p>
+                                    <button type="button" class="btn btn-primary border-0 bg-white text-danger my-3"
+                                        data-toggle="modal" data-target="#exampleModalCenter">
+                                        Launch demo modal
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center justify-content-center my-3">
+                    <a href="#" class="btn btn-danger text-center">
+                        <span class="material-icons">
+                            house
+                        </span>
+                        <small class="d-block">Pagina Principal</small>
+                    </a>
+                </div>
+            </section>
+        </section>
+
+
+        <!--Modal Pie Limon-->
+        <div class="modal fade" id="pieLimon" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-md modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Pie de Limon</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body ">
+                        <h6>Porciones: 8 porciones</h6>
+                        <h6>Tiempo de preparacion: 20min</h6>
+                        <div class="px-3 my-4">
+                            <div class="embed-responsive embed-responsive-4by3">
+                                <iframe width="956" height="538" src="https://www.youtube.com/embed/i7O8QLsO148"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Modal de Cheesecake-->
+        <div class="modal fade" id="cheeseckae" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-md modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Cheesecake</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body ">
+                        <h6>Porciones: 10 porciones</h6>
+                        <h6>Tiempo de preparacion: 45min</h6>
+                        <div class="px-3 my-4">
+                            <div class="embed-responsive embed-responsive-4by3">
+                                <iframe width="956" height="538" src="https://www.youtube.com/embed/bZbO90CmuCg"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Modal de Tres Leches-->
+        <div class="modal fade" id="tresLeches" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-md modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Tres Leches</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body ">
+                        <h6>Porciones: 5 porciones</h6>
+                        <h6>Tiempo de preparacion: 90min</h6>
+                        <div class="px-3 my-4">
+                            <div class="embed-responsive embed-responsive-4by3">
+                                <iframe width="956" height="538" src="https://www.youtube.com/embed/sLObwQ9DxJs"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+    </div>
+
+
+    <script src="./cocina.js"></script>
+    <!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
