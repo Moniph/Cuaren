@@ -239,7 +239,7 @@ h3 {
   }
 
   .card-pie {
-    background-image: url("https://cdn.kiwilimon.com/recetaimagen/35454/42533.jpg");
+    background-image: url("https://7diasdesabor.com/archivos/recetas/1493827189-4906kkx4og.png");
   }
 
   .card-cheesecake {
@@ -251,7 +251,15 @@ h3 {
   }
 
   .card-tresLeches {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQLUU4mitC_y6yKnsz7Z8BJzxUbuzoylVnMPeFjqaoCT2sAg-vj&usqp=CAU");
+    background-image: url("https://www.goya.com/media/3715/three-milk-cake-postre-de-tres-leches.jpg?quality=80");
+  }
+
+  .card-strawberryCake {
+    background-image: url("https://www.nacion.com/resizer/viFFdXb66UrjXCDHnebZmS0daTE=/600x0/center/middle/filters:quality(100)/arc-anglerfish-arc2-prod-gruponacion.s3.amazonaws.com/public/L6FDCK7PAJGEZAU7APRKDTLYUM.jpg");
+  }
+
+  .card-crepas {
+    background-image: url("https://receta.space/wp-content/uploads/2019/07/crepas-1024x597.png");
   }
 
   @media only screen and (min-width: 1024px) {
