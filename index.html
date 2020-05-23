@@ -25,141 +25,89 @@
 
     <div id="mySidenav" class="sidenav hamburgerText">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#">Inicio</a>
-        <a href="#">Actividades</a>
-        <a href="#">Contáctanos</a>
-        <a href="#">Login</a>
+        <a href="./index.html">Inicio</a>
+        <a href="#Contactanos" onclick="closeNav()">Contáctanos</a>
+        <a href="./login.html">Login</a>
     </div>
 
-    <!-- Use any element to open the sidenav -->
-    <div class="d-flex justify-content-between align-items-center">
-        <span onclick="openNav()"> <span class="material-icons hm hamburger" style="color: white;">
-                menu
-            </span> </span>
-        <img class="logo mr-3" src="./assets/cuaren_Logo.png" alt="logo">
+    <div>
+        <div class="logo">
+            <!-- Use any element to open the sidenav -->
+            <span onclick="openNav()"> <span class="material-icons hm hamburger" style="color: white;">
+                    menu
+                </span> </span> 
+            <div class="logo2">
+                <img class="logo3" src="./assets/cuaren_Logo.png" alt="logo">
+            </div>
+        </div>
     </div>
-
-    <h2>Cocina</h2>
-    <h3>Aprende a preparar los mejores platillos</h3>
 
     <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
     <div id="main">
 
+
+        <!-- Bienvenidos -->
+        <main>
+            <div class="fondoRojo">
+                <div class="bienvenidos">
+                    <h1>Bienvenido a cuaren</h1>
+                    <p class="inicio col-10">Descubre nuevas actividades para quitarte el aburrimiento</p>
+                </div>
+            </div>
+        </main>
+
         <section class="actividades">
+
             <!-- Actividades -->
-            <section class="container py-5">
-                <div class="row">
-                    <div class="col-md-4 px-md-4 py-3">
-                        <div class="flip-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front card-pie">
-                                    <h3>Pie</h3>
-                                </div>
-                                <div class="flip-card-back px-3 py-5">
-                                    <h1>Pie de Limon</h1>
-                                    <p>
-                                        Esta receta es tradicional de las cocinas de Francia, Estados Unidos y Reino
-                                        Unido, si bien se conoce en muchos otros lugares, y se consume como postre o
-                                        como parte de la merienda.
-                                    </p>
-                                    <button type="button" class="btn btn-primary border-0 bg-white text-danger my-3"
-                                        data-toggle="modal" data-target="#pieLimon">
-                                        Ver Video
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
+            <section class="container">
+                <article class="row" style="text-decoration: none">
+                    <a name="Actividades"/>
+                    <!-- Cocina -->
+                    <div class="col-sm-4 col-6">
+                        <a class="palabra" href="./cocina.html"><img class="link w-75" src="./assets/A _Cocina.png"
+                                alt="Cocina">
+                            <p class="palabra">Cocina </p>
+                        </a>
                     </div>
 
-                    <div class="col-md-4 px-md-4 py-3">
-                        <div class="flip-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front card-cheesecake">
-                                    <h3>Cheesecake</h3>
-                                </div>
-                                <div class="flip-card-back px-3 py-5">
-                                    <h1>Cheesecake</h1>
-                                    <p>Un pastel de queso o tarta de queso (ver otros nombres) es un postre hecho a base
-                                        de Ricotta, requesón o queso cheddar, queso quark, azúcar)</p>
-                                    <button type="button" class="btn btn-primary border-0 bg-white text-danger my-3"
-                                        data-toggle="modal" data-target="#cheeseckae">
-                                        Ver video
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
+                    <!-- Cultural -->
+                    <div class="col-sm-4 col-6">
+                        <a class="palabra" href="./cultural.html"><img class="link w-75"
+                                src="./assets/A _Cultural.png" alt="Cultural">
+                            <p class="palabra">Cultural</p>
+                        </a>
                     </div>
 
-                    <div class="col-md-4 px-md-4 py-3">
-                        <div class="flip-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front card-tresLeches">
-                                    <h3>Tres Leches</h3>
-                                </div>
-                                <div class="flip-card-back px-3 py-5">
-                                    <h1>Tres Leches</h1>
-                                    <p>Consiste en un bizcocho bañado con tres tipos de leche: leche evaporada, crema de
-                                        leche y leche condensada, que le dan su nombre</p>
-                                    <button type="button" class="btn btn-primary border-0 bg-white text-danger my-3"
-                                        data-toggle="modal" data-target="#tresLeches">
-                                        Ver Video
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
+                    <!-- Destreza -->
+                    <div class="col-sm-4 col-6">
+                        <a class="palabra" href="./destreza.html"><img class="w-75 link"
+                                src="./assets/A _Destreza.png" alt="Destreza">
+                            <p class="palabra">Destreza</p>
+                        </a>
                     </div>
-                    <div class="col-md-4 px-md-4 py-3">
-                        <div class="flip-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front card-chocolateCake">
-                                    <h3>Queque de Chocolate</h3>
-                                </div>
-                                <div class="flip-card-back px-3 py-5">
-                                    <h1>Queque de Chocolate</h1>
-                                    <p>Tiempo requerido de preparacion</p>
-                                    <button type="button" class="btn btn-primary border-0 bg-white text-danger my-3"
-                                        data-toggle="modal" data-target="#exampleModalCenter">
-                                        Launch demo modal
-                                    </button>
 
+                    <!-- Ejercicio -->
+                    <div class="col-sm-4 col-6 ">
+                        <a class="palabra" href="./ejercicio.html"><img class="w-75 link"
+                                src="./assets/A _Ejercicio.png" alt="Ejercicio">
+                            <p class="palabra">Ejercicio</p>
+                        </a>
+                    </div>
 
-                                </div>
-                            </div>
-                        </div>
+                    <!-- Entretenimiento -->
+                    <div class="col-sm-4 col-6">
+                        <a class="palabra" href="./entretenimiento.html"><img class="w-75 link"
+                                src="./assets/A _Entretenimiento.png" alt="Entretenimiento">
+                            <p class="palabra">Entretenimiento</p>
+                        </a>
                     </div>
-                    <div class="col-md-4 px-md-4 py-3">
-                        <div class="flip-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front card-strawberryCake">
-                                    <h3>Queque de Fresas</h3>
-                                </div>
-                                <div class="flip-card-back px-3 py-5">
-                                    <h1>>Queque de Fresas</h1>
-                                    <p>Tiempo requerido de preparacion</p>
-                                    <button type="button" class="btn btn-primary border-0 bg-white text-danger my-3"
-                                        data-toggle="modal" data-target="#exampleModalCenter">
-                                        Launch demo modal
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 px-md-4 py-3">
-                        <div class="flip-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front card-crepas">
-                                    <h3>Crepas</h3>
-                                </div>
-                                <div class="flip-card-back px-3 py-5">
-                                    <h1>Crepas</h1>
-                                    <p>Tiempo requerido de preparacion</p>
-                                    <button type="button" class="btn btn-primary border-0 bg-white text-danger my-3"
-                                        data-toggle="modal" data-target="#exampleModalCenter">
-                                        Launch demo modal
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
+
+                    <!-- Manualidades -->
+                    <div class="col-sm-4 col-6">
+                        <a class="palabra" href="./manualidades.html"><img class="w-75 link"
+                                src="./assets/A _Manualidades.png" alt="Manualidades">
+                            <p class="palabra">Manualidades</p>
+                        </a>
                     </div>
                 </div>
                 <div class="d-flex align-items-center justify-content-center my-3">
@@ -174,92 +122,36 @@
         </section>
 
 
-        <!--Modal Pie Limon-->
-        <div class="modal fade" id="pieLimon" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-            aria-hidden="true">
-            <div class="modal-dialog modal-md modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">Pie de Limon</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body ">
-                        <h6>Porciones: 8 porciones</h6>
-                        <h6>Tiempo de preparacion: 20min</h6>
-                        <div class="px-3 my-4">
-                            <div class="embed-responsive embed-responsive-4by3">
-                                <iframe width="956" height="538" src="https://www.youtube.com/embed/i7O8QLsO148"
-                                    frameborder="0"
-                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
-                            </div>
+
+        <!-- Contáctanos -->
+        <main>
+            <a name="Contactanos"/>
+            <div class="fondoRojo2">
+
+                <div class="f1 col-12 justify-content-center">
+                    <p class="f2">Contáctanos</p>
+                    <p class="inicio"> Si quieres compartir alguna actividad con nosotros
+                        mándanos un mensaje</p>
+
+                    <form>
+                        <div class="formulario col-12">
+                            <label for="formGroupExampleInput"></label>
+                            <input type="text" class="form-control espacioArriba" id="formGroupExampleInput" placeholder="Nombre">
                         </div>
-                    </div>
+                        <div class="formulario col-12">
+                            <label for="formGroupExampleInput"></label>
+                            <input type="text" class="form-control" id="formGroupExampleInput"
+                                placeholder="Correo electrónico">
+                        </div>
+                        <div class="formulario col-12">
+                            <textarea class="form-control" placeholder="Escribe tu mensaje"
+                                aria-label="With textarea"></textarea>
+                        </div>
+                            <button type="button" class="btn btn-danger float-right btnenviar">Enviar</button>
+                    </form>
                 </div>
             </div>
         </div>
-
-        <!--Modal de Cheesecake-->
-        <div class="modal fade" id="cheeseckae" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-            aria-hidden="true">
-            <div class="modal-dialog modal-md modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">Cheesecake</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body ">
-                        <h6>Porciones: 10 porciones</h6>
-                        <h6>Tiempo de preparacion: 45min</h6>
-                        <div class="px-3 my-4">
-                            <div class="embed-responsive embed-responsive-4by3">
-                                <iframe width="956" height="538" src="https://www.youtube.com/embed/bZbO90CmuCg"
-                                    frameborder="0"
-                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!--Modal de Tres Leches-->
-        <div class="modal fade" id="tresLeches" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-            aria-hidden="true">
-            <div class="modal-dialog modal-md modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">Tres Leches</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body ">
-                        <h6>Porciones: 5 porciones</h6>
-                        <h6>Tiempo de preparacion: 90min</h6>
-                        <div class="px-3 my-4">
-                            <div class="embed-responsive embed-responsive-4by3">
-                                <iframe width="956" height="538" src="https://www.youtube.com/embed/sLObwQ9DxJs"
-                                    frameborder="0"
-                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-
-
-
     </div>
 
 
