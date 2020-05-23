@@ -1,0 +1,173 @@
+.fondoRojo{
+    background-image: url('./assets/Fondo\ homepage_Mesa\ de\ trabajo\ 1.jpg');
+    padding-top: 40%;
+    padding-bottom: 10%;
+    display: flex;
+    width: 100%;
+    background-size: cover;
+}
+
+.fondoRojo2{
+    background-image: url('./assets/Fondo\ homepage_Mesa\ de\ trabajo\ 1.jpg');
+    padding-top: 15%;
+    padding-bottom: 10%;
+    display: flex;
+    width: 100%;
+    background-size: cover;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.logo2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo3 {
+    width: 25%;
+}
+
+body {
+    background-color: #e52c2b
+  }
+
+h1{
+    margin-left: 20px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 26px;
+}
+
+.inicio{
+    font-size: 100%;
+    font-style: normal;
+    margin-left: 10px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+.actividades{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.hamburger{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.link{
+/*     border: rgb(102, 71, 255) 1px solid; */
+}
+
+
+.palabra{
+    text-decoration: none !important;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+.circulo {
+    border: orange 1px solid;
+    size: 50%;
+}
+
+/* .circulo1{
+    border: rgb(0, 255, 149) 1px solid;
+    display: flex;
+    justify-content: center;
+} */
+
+.f1 {
+/*     border: rgb(0, 255, 149) 1px solid; */
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.f2 {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    font-style: italic;
+    margin: 10px
+}
+
+.formulario{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.btnenviar{
+margin: 15px;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-weight: 400;
+    background-clip: padding-box;
+    border: 1px solid #ffffff;
+}
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color:#e52c2b; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  color:white;
+  display: block;
+  transition: 0.3s;
+  font-family: 'Lato', sans-serif;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: white;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+ 
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 0px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
